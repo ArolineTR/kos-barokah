@@ -1,0 +1,99 @@
+/*BCS2243 WEB ENGINEERING [HOT]
+Student ID: CB21156
+Student Name: Fauzan Ali Vijsma
+Section: 4A
+Lecturer name: Azlina Zainuddin
+*/
+body {
+    background: url("kosbarokah.jpeg") center;
+    background-repeat: no-repeat;
+    background-size: 1200px 900px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+p.choc {
+    color: white;
+}
+
+div.choc {
+    background-color: #7E5109;
+    background-size: 100% 100%;
+    height: 100px;
+    }
+
+div.mid {
+    background: url("kosbarokah.jpeg") center;
+    background-size: 100% 100%;
+    text-align: center;
+    height: 500px;
+    }
+
+table{
+    border: 1px solid;
+    border-style: solid;
+    width: 70%;
+    height: 70%;
+    color: #D4AC0D;
+    background-color: #e5fbf0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    color: black;
+    border: 1px solid;
+    border-style: solid;
+    border-color:#D4AC0D;
+    background-color: #D4AC0D;
+    width: 40%;
+    text-align: middle;
+}
+
+td{
+    color: black;
+    border: 1px solid;
+    border-style: solid;
+    border-color: #D4AC0D;
+    background-color: #e5fbf0;
+    width: 40%;
+    text-align: left;
+
+}
+
+td.invi{
+    color: black;
+    border-style: none;
+    background-color: #e5fbf0;
+    width: 40%;
+    text-align: right;
+
+}
+
+td.invi2{
+    color: black;
+    border-style: none;
+    background-color: #e5fbf0;
+    width: 40%;
+    text-align: left;
+
+}
+input {
+    width: 50%;
+    height: 50%;
+}
+input.but {
+    border-style: none;
+    background-color:#D4AC0D;
+    color: white;
+    width: 50%;
+    height: 50%;
+}
+
+div.bawah {
+    background-color: #7E5109;
+    background-size: 100% 100%;
+    height: 100px;
+    }
