@@ -9,7 +9,7 @@
           <h1>Kost nyaman untuk kalian semua</h1>
           <h2>Kamar mandi dalam, parkiran luas, free wifi dan dekat dengan Unwahas!</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Pesan Kamar</a>
+            <a href="/pesan" class="btn-get-started scrollto">Pesan Kamar</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
@@ -342,7 +342,7 @@
 
         <div class="section-title">
           <h2>Harga</h2>
-          <p>Berikut harga kos dari Kos Barokah</p>
+          <p>Berikut harga kos dari Kos Barokah.</p>
         </div>
 
         <div class="row ">
@@ -485,10 +485,9 @@
                   <input type="text" name="name" class="form-control" id="name" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <label for="name">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <label for="email">Email</label>
+                  <input type="text" name="email" class="form-control" id="email" required>
                 </div>
-              </div>
               <div class="form-group">
                 <label for="name">Judul</label>
                 <input type="text" class="form-control" name="subject" id="subject" required>
@@ -497,6 +496,7 @@
                 <label for="name">Pesan</label>
                 <textarea class="form-control" name="message" rows="10" required></textarea>
               </div>
+              
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
@@ -504,6 +504,7 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
+            
           </div>
 
         </div>

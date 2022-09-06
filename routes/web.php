@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/about', function () {
-    return view('about', [ "name" => "Fauzan Ali", "email" => "apspromp@gmail.com", "image" => "ojan.jpg"]);
+Route::get('/pesan', function () {
+    return view('pesan');
 });
 
 Route::get('/list', function () {
