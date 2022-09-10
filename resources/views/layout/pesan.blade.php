@@ -48,11 +48,11 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="#hero">Beranda</a></li>
-          <li><a class="nav-link scrollto" href="#about">Tentang Kos</a></li>
-          <li><a class="nav-link scrollto" href="#jarak">Jarak</a></li>
-          <li><a class="nav-link scrollto" href="#services">Servis</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Harga</a></li>
+          <li><a class="nav-link scrollto" href="/#hero">Beranda</a></li>
+          <li><a class="nav-link scrollto" href="/#about">Tentang Kos</a></li>
+          <li><a class="nav-link scrollto" href="/#jarak">Jarak</a></li>
+          <li><a class="nav-link scrollto" href="/#services">Servis</a></li>
+          <li><a class="nav-link scrollto" href="/#pricing">Harga</a></li>
           {{-- <li><a class="nav-link scrollto" href="#portfolio">Jarak</a></li> --}}
           {{-- <li><a class="nav-link scrollto" href="#team">Struktur</a></li> --}}
           {{-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -72,7 +72,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> --}}
-          <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
+          <li><a class="nav-link scrollto" href="/#contact">Kontak</a></li>
           <li><a class="getstarted scrollto" href="/pesan">Pesan Kamar</a></li>
       </nav><!-- .navbar -->
 
