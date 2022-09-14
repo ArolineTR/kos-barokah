@@ -46,7 +46,7 @@
                 <li><i class="ri-check-double-line"></i>Tempat Nongkrong</li>
               </ul>
             </p>
-            <a href="#" class="btn-learn-more">Pesan Kamar</a>
+            <a href="/pesan" class="btn-learn-more">Pesan Kamar</a>
           </div>
       </div>
     </section><!-- End About Us Section -->
@@ -356,7 +356,7 @@
                 <li><i class="bx bx-check"></i> Meja Belajar</li>
                 <li><i class="bx bx-check"></i> Ember, Gayung, Penyimpanan Sabun</li>
               </ul>
-              <a href="#" class="buy-btn">Pesan</a>
+              <a href="/pesan" class="buy-btn">Pesan</a>
             </div>
           </div>
 
@@ -371,7 +371,7 @@
                 <li><i class="bx bx-check"></i> Meja Belajar</li>
                 <li><i class="bx bx-check"></i> Ember, Gayung, Penyimpanan Sabun</li>
               </ul>
-              <a href="#" class="buy-btn">Pesan</a>
+              <a href="/pesan" class="buy-btn">Pesan</a>
             </div>
           </div>
 
@@ -469,7 +469,7 @@
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
-                <h4>Telefon:</h4>
+                <h4>Telepon:</h4>
                 <p><a href="https://wa.me/6285866355989">+62 858-6635-5989 (Ferdi M.S.)</a></p>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23579.340914808854!2d110.36956527030547!3d-7.056237923308497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708988f51f0547%3A0x4901d76052366291!2zN8KwMDMnNDMuMSJTIDExMMKwMjEnNTQuMSJF!5e0!3m2!1sid!2sid!4v1662453081233!5m2!1sid!2sid" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
