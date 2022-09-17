@@ -10,7 +10,7 @@
           <h2>Kamar mandi dalam, parkiran luas, free wifi dan dekat dengan Unwahas!</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="/pesan" class="btn-get-started scrollto">Pesan Kamar</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#home" onclick="javascript:alert('Coming soon.')" class="btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-6 order-10 order-lg-5 hero-img" data-aos="zoom-in" data-aos-delay="200">
@@ -29,10 +29,10 @@
         </div>
 
         <div class="row content">
-            <div class="col-sm-5 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="col" data-aos="zoom-in" data-aos-delay="200">
               <img src="/img/hero-img.jpg" width="320px" height="320px" alt="">
             </div>
-          <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+          <div class="col">
             <p>
               Kos Barokah merupakan kost yang memberi wadah para mahasiswa Unwahas untuk
               meraih ilmu pada Universitas Wahid Hasyim. Kost Barokah juga menyediakan fasilitas 
@@ -111,48 +111,45 @@
           <h2>Jarak</h2>
         </div>
         
-        <div class="row">
-          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+        <div class="d-flex justify-content-center">
+          <div class="row w-75 p-3">
+          {{-- <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
             <img src="/img/skills.png" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            {{-- <h3>Jarak Kos dari beberapa tempat</h3> --}}
-            <p class="fst-italic">
-              Jarak Kos dari beberapa tempat.
-            </p>
+          </div> --}}
+          
+              <div class="skills-content">
+                {{-- <div class="d-flex justify-content-center"> --}}
 
-            <div class="skills-content">
+                  <div class="progress">
+                    <span class="skill">Universitas Wahid Hasyim <i class="val">10m</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
 
-              <div class="progress">
-                <span class="skill">Universitas Wahid Hasyim <i class="val">10m</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
+                  <div class="progress">
+                    <span class="skill">Ramesan Javana <i class="val">50m</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="progress">
+                    <span class="skill">Minimarket Primkopol <i class="val">200m</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+
+                  <div class="progress">
+                    <span class="skill">Indomaret <i class="val">900m</i></span>
+                    <div class="progress-bar-wrap">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                {{-- </div> --}}
+
               </div>
-
-              <div class="progress">
-                <span class="skill">Ramesan Javana <i class="val">50m</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Minimarket Primkopol <i class="val">200m</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Indomaret <i class="val">900m</i></span>
-                <div class="progress-bar-wrap">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </div>
-
-            </div>
-
           </div>
         </div>
 
@@ -181,7 +178,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Air Galon Isi Ulang</a></h4>
-              <p>Tersedia Air Galon Isi Ulang dekat kost antar jemput seharga Rp 6.000,00/galon.</p>
+              <p>Tersedia Air Galon Isi Ulang dekat kost antar jemput seharga Rp 6.500,00/galon.</p>
             </div>
           </div>
 
@@ -478,7 +475,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="javascript:alert('Pesan sudah diteruskan ke penjaga kos.')" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Nama</label>
@@ -500,9 +497,9 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div class="sent-message">Pesan kamu telah disampaikan kepada penjaga kos.</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" onclick="document.forms[0].submit()">Send Message</button></div>
             </form>
             
           </div>
@@ -523,8 +520,8 @@
           <div class="col-lg-6">
             <h4>Info tentang Kos Barokah</h4>
             <p>Boleh diisi email untuk mengetahui info terbaru tentang Kos Barokah</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+            <form action="javascript:alert('Email kamu telah dimasukkan ke dalam subscibe!')" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe" onclick="document.forms[1].submit()">
             </form>
           </div>
         </div>

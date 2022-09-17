@@ -4,7 +4,8 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
+(
+  function() {
   "use strict";
 
   /**
@@ -18,6 +19,8 @@
       return document.querySelector(el)
     }
   }
+
+  
 
   /**
    * Easy event listener function
@@ -253,5 +256,7 @@
       mirror: false
     });
   });
+
+  
 
 })()
